@@ -1,0 +1,47 @@
+body {
+    position: relative;
+    font-family:Verdana;font-size:12px;
+    background-color:#efefef;
+}
+img {
+width: 30%;
+opacity: 0.6;
+}
+
+.bild1 {
+position: absolute;
+left: 450px;
+top: 350px;
+z-index: 3;
+font-weight: bold;
+}
+
+.bild2 {
+position: absolute;
+left: 250px;
+top: 250px;
+z-index: 2.5;
+font-weight: bold;
+}
+
+.bild3 {
+position: absolute;
+left: 50px;
+top: 150px;
+z-index: 1.5;
+font-weight: bold;
+}
+
+.bild4 {
+position: absolute;
+left: 25px;
+top: 50px;
+z-index: 0.5;
+font-weight: bold;
+}
+
+.bild5 {
+background-image: url(../Urlaub/01-01-sansibar-m-10690177-jpg--90668-.jpg);
+width: 300px;
+z-index: 8;
+}
