@@ -1,47 +1,62 @@
-body {
-    position: relative;
-    font-family:Verdana;font-size:12px;
-    background-color:#efefef;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
+
+body {
+  font-size: 10px;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: lightpink;
+}
+
 img {
-width: 30%;
-opacity: 0.6;
+  width: 12vw;
+  justify-content: center;
+  padding: 0.2rem;
+  padding-bottom: 0.8rem;
+  border: 2px solid black;
 }
 
 .bild1 {
-position: absolute;
-left: 450px;
-top: 350px;
-z-index: 3;
-font-weight: bold;
+  position: absolute;
+  top: 8rem;
+  left: 15rem;
+  z-index: 2.5;
+  transform: rotate(-22deg);
 }
-
 .bild2 {
-position: absolute;
-left: 250px;
-top: 250px;
-z-index: 2.5;
-font-weight: bold;
+  position: absolute;
+  top: 4rem;
+  left: 14rem;
+  opacity: 0.6;
+  z-index: 2;
+  transform: rotate(10deg);
 }
-
 .bild3 {
-position: absolute;
-left: 50px;
-top: 150px;
-z-index: 1.5;
-font-weight: bold;
+  position: absolute;
+  left: 10rem;
+  opacity: 0.8;
+  z-index: 1;
+  transform: rotate(15deg);
 }
-
 .bild4 {
-position: absolute;
-left: 25px;
-top: 50px;
-z-index: 0.5;
-font-weight: bold;
+  position: absolute;
+  top: 1rem;
+  left: 8rem;
+  opacity: 0.7;
+  z-index: 3;
+  transform: rotate(5deg);
 }
 
 .bild5 {
-background-image: url(../Urlaub/01-01-sansibar-m-10690177-jpg--90668-.jpg);
-width: 300px;
-z-index: 8;
+width: 70vw;
+height: 70vh;
+position: relative;
+border: 2px solid black;
 }
+
